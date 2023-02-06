@@ -10,14 +10,14 @@ body {
     display: grid;
     position: relative;
     background-color: #f8f4f4e0;
-    
+
 }
 
 .search-tabela {
     position: relative;
-    display:block;
+    display: block;
     padding: 2rem 5rem 1rem 5rem;
-    }
+}
 
 .search {
     margin-bottom: 1rem;
@@ -33,44 +33,45 @@ body {
     text-align: justify;
 }
 
-::placeholder{
+::placeholder {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#lupa{
+#lupa {
     color: #2873af;
     font-size: 1.2rem;
 }
 
-#lupa:hover{
+#lupa:hover {
     color: #504949;
 }
 
 .table-bordered {
     border: 2px solid;
-    border-radius:1px;
+    border-radius: 1px;
     border-color: #C0C0C0;
     font-family: Arial, Helvetica, sans-serif;
     font-style: #000000;
 }
 
-thead{
+thead {
     background-color: #A9A9A9;
 }
 
-tbody{
+tbody {
     background-color: #ffffffff;
 }
 
-tbody tr:hover{
+tbody tr:hover {
     background-color: #87b4d82a;
 }
 
 
-#Detalhes{
+#Detalhes {
     text-align: end;
- }
-#detalh{
+}
+
+#detalh {
     text-align: end;
 }

@@ -1229,13 +1229,12 @@ function displayTabela(dado) {
             <td id="id">${item.id}</td>
             <td id="title">${item.title}</td>
             <td id="completado"><input type="checkbox" name="" id="checkbox" disabled="disabled" ${check}></td>
-            <td id="detalh"> <a href="https://www.google.com.br/"><img src="preview.png" alt="" width="16px" height="16px"></a></td>
+            <td id="detalh"> <a href="https://www.imaginesw.com.br/"><img src="preview.png" alt="" width="16px" height="16px"></a></td>
         </tr>
     </tbody>
         `;
   });
   displayTabel = displayTabel.join("");
-
   tabela.innerHTML = displayTabel;
 }
 
@@ -1244,11 +1243,10 @@ inputSearch.addEventListener("keyup", function (e) {
   var tabelaDados = document.querySelectorAll("#title");
 
   tabelaDados.forEach(function (itens) {
-    if (itens.textContent.toLowerCase().indexOf(searchDados) != -1){
+    if (itens.textContent.toLowerCase().indexOf(searchDados) != -1) {
       itens.closest("tr").style.display = "fluid";
-    }
-    else {
+    } else {
       itens.closest("tr").style.display = "none";
     }
-  })
-}) 
+  });
+});
